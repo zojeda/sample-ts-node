@@ -1,4 +1,4 @@
-FROM node
+FROM node:slim
 
 RUN mkdir -p /opt/sample-app
 WORKDIR /opt/sample-app
