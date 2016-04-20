@@ -5,7 +5,7 @@
   "main": "lib/hello.js",
   "scripts": {
     "build": "tsc",
-    "clean": "rimraf lib node_modules",
+    "clean": "rimraf lib",
     "test": "mocha --require ts-node/register test/**/*.spec.ts",
     "typings": "typings install"
   },
