@@ -5,6 +5,7 @@
   "main": "lib/hello.js",
   "scripts": {
     "build": "tsc",
+    "clean": "rimraf lib node_modules",
     "test": "mocha --require ts-node/register test/**/*.spec.ts",
     "typings": "typings install"
   },
@@ -15,6 +16,7 @@
     "express": "^4.13.4"
   },
   "devDependencies": {
+    "rimraf": "^2.5.2",
     "ts-node": "^0.5.5",
     "typescript": "^1.8.9"
   }
