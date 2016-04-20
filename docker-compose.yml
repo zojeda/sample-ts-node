@@ -1,0 +1,8 @@
+version: '2'
+services: 
+    sample-ts-node:
+        image: localhost:5000/proteus/sample-ts-node
+        ports:
+            - "8080:4444"
+    mongodb:
+        image: mongo
